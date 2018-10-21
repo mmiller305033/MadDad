@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CF5A14BC-694A-2D35-54A8-DA473BD775A9}</ProjectGuid>
+    <ProjectGuid>{E5C00A68-E6DB-FEA3-938C-F34D364EA738}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,55 +53,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\collided.cs" />
-     <Compile Include="Assets\Dads\dadMove.cs" />
-     <Compile Include="Assets\DontDestroyAudio.cs" />
-     <Compile Include="Assets\ExitButtonClick.cs" />
-     <Compile Include="Assets\MenuBehaviors.cs" />
-     <Compile Include="Assets\Movement.cs" />
-     <Compile Include="Assets\PlayButtonClick.cs" />
-     <Compile Include="Assets\Scripts\colorChange.cs" />
-     <Compile Include="Assets\Scripts\dadMove2.cs" />
-     <Compile Include="Assets\Scripts\dadMove3.cs" />
-     <Compile Include="Assets\Scripts\dadMove4.cs" />
-     <Compile Include="Assets\Scripts\dadMove5.cs" />
-     <Compile Include="Assets\Scripts\displayScores.cs" />
-     <Compile Include="Assets\Scripts\displayScores2.cs" />
-     <Compile Include="Assets\Scripts\displayScores3.cs" />
-     <Compile Include="Assets\Scripts\displayScores4.cs" />
-     <Compile Include="Assets\Scripts\getItem.cs" />
-     <Compile Include="Assets\Scripts\leafControl.cs" />
-     <Compile Include="Assets\Scripts\scoreCount.cs" />
-     <Compile Include="Assets\staticScores.cs" />
-     <Compile Include="Assets\TextChange.cs" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+     <Compile Include="Assets\NewPlayableBehaviour.cs" />
+     <Compile Include="Assets\rig.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/Preston/Documents/Unity Projects/Mad Dads UI/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/Preston/Documents/Unity Projects/test/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/Preston/Documents/Unity Projects/Mad Dads UI/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/Preston/Documents/Unity Projects/test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/Preston/Documents/Unity Projects/Mad Dads UI/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/Preston/Documents/Unity Projects/test/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/Preston/Documents/Unity Projects/Mad Dads UI/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/Preston/Documents/Unity Projects/test/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
